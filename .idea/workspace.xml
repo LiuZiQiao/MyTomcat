@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c8e600e2-ba29-493f-bdf7-6296fadecf94" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/conf.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/demo01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/demo02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lxk/MyTomcat/mytomcatV1/TestServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lxk/MyTomcat/mytomcatV2/AAServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lxk/MyTomcat/mytomcatV2/BBServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lxk/MyTomcat/mytomcatV2/Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lxk/MyTomcat/mytomcatV2/TestServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lxk/MyTomcat/test/ServiceSendToClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/.idea/libraries/mysql_connector_java_5_1_47.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/.idea/libraries/servlet_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/StaticStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/commons/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/dao/ApplyDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/dao/ClassTypeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/dao/ClassesDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/dao/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/dao/CustomerStatusDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/dao/FunctionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/dao/InfoSourceDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/dao/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/dao/impl/ApplyDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/dao/impl/ClassTypeDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/dao/impl/ClassesDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/dao/impl/CustomerDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/dao/impl/CustomerStatusDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/dao/impl/FunctionDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/dao/impl/InfoSourceDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/dao/impl/RoleDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/domain/Apply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/domain/BaseTestApply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/domain/ClassType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/domain/Classes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/domain/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/domain/CustomerStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/domain/Function.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/domain/InfoSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/domain/QuotaApply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/domain/ResumeApply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/exception/DaoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/filter/CheckCustomerLoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/filter/PrivilegeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/filter/SetCharacterEncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/service/ApplyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/service/ConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/service/PrivilegeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/service/impl/ApplyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/service/impl/ConfigServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/service/impl/PrivilegeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/test/Base64Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/test/CustomerDaoImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/util/C3P0Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/util/SendMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/util/WebUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/web/controller/ApplyServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/web/controller/ConfigServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/web/controller/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/web/controller/PrivilegeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/com/lxk/web/controller/ProcessServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OA_RegisterSystem/src/number.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/config/PaginationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/config/SQLiteDialect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/controller/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/exception/ProjException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/exception/ProjExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/mapper/PersonsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/model/ErrorInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/model/PageInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/java/com/lxk/demo/model/Persons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootVuepersonManager/src/main/resource/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot_Test/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot_Test/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot_Test/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot_Test/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j_1_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot_Test/src/main/java/com/lxk/aop/WebLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot_Test/src/main/resource/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CMS/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CMS/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CMS/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../CMS/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyBlog/src/main/webapp/WEB-INF/views/comm/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../MyBlog/src/main/webapp/WEB-INF/views/comm/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootMyBatis/src/main/java/com/lxk/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootMyBatis/src/main/java/com/lxk/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootMyBatis/src/main/java/com/lxk/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootMyBatis/src/main/java/com/lxk/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootMyBatis/src/main/java/com/lxk/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootMyBatis/src/main/java/com/lxk/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootMyBatis/src/main/java/com/lxk/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootMyBatis/src/main/java/com/lxk/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootMyBatis/src/main/java/com/lxk/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootMyBatis/src/main/java/com/lxk/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootMyBatis/src/main/java/com/lxk/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootMyBatis/src/main/java/com/lxk/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootMyBatis/src/main/java/com/lxk/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootMyBatis/src/main/java/com/lxk/web/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootMyBatis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootMyBatis/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootWeb/src/main/java/com/lxk/web/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootWeb/src/main/java/com/lxk/web/TeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootWeb/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootWeb/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootWeb/src/main/webapp/WEB-INF/view/teacher/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootWeb/src/main/webapp/WEB-INF/view/teacher/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot_Test/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot_Test/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot_Test/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot_Test/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Test/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_5_9_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot_Test/Springboot_Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Test/Springboot_Test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot_Test/src/main/java/com/lxk/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Test/src/main/java/com/lxk/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot_Test/src/main/java/com/lxk/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Test/src/main/java/com/lxk/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot_Test/src/main/resource/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot_Test/src/main/resource/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebTest/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebTest/src/com/lxk/ChatSystem/bean/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebTest/src/com/lxk/ChatSystem/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebTest/src/com/servlet/FirstServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebTest/src/com/servlet/FirstServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebTest/src/com/servlet/SecondServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebTest/src/com/servlet/SecondServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebTest/src/com/servlet/bean/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebTest/src/com/servlet/bean/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebTest/web/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WebTest/web/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-vue-springboot/blog-api/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4_10_Thread/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_10_Thread/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/bean01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/bean01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/dao/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/test/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/test/Test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/test/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/com/lxk/test/Test02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../day4_21_JDBCTemplate/src/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springday01/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springday01/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springday01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springday01/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lxk/MyTomcat/mytomcatV2/Servlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/conf.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lxk/MyTomcat/mytomcatV2/BBServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+              <folding>
+                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lxk/MyTomcat/mytomcatV2/AAServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/lxk/MyTomcat/mytomcatV2/TestServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="100" selection-start-line="100" selection-end-line="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/lxk/MyTomcat/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/lxk/MyTomcat/ReceiveFromService.java" />
+        <option value="$PROJECT_DIR$/src/com/lxk/MyTomcat/ServiceSendToClient.java" />
+        <option value="$PROJECT_DIR$/src/com/lxk/MyTomcat/test/ServiceSendToClient.java" />
+        <option value="$PROJECT_DIR$/src/com/lxk/MyTomcat/test/ReceiveFromService.java" />
+        <option value="$PROJECT_DIR$/WebContent/demo01.html" />
+        <option value="$PROJECT_DIR$/src/com/lxk/MyTomcat/mytomcatV1/TestServer.java" />
+        <option value="$PROJECT_DIR$/src/com/lxk/MyTomcat/mytomcatV2/Servlet.java" />
+        <option value="$PROJECT_DIR$/src/com/lxk/MyTomcat/mytomcatV2/AAServlet.java" />
+        <option value="$PROJECT_DIR$/WebContent/conf.properties" />
+        <option value="$PROJECT_DIR$/src/com/lxk/MyTomcat/mytomcatV2/BBServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/lxk/MyTomcat/mytomcatV2/TestServer.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="382" />
+    <option name="y" value="36" />
+    <option name="width" value="855" />
+    <option name="height" value="736" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MyTomcat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyTomcat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyTomcat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyTomcat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyTomcat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyTomcat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MyTomcat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyTomcat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyTomcat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MyTomcat" type="462c0819:PsiDirectoryNode" />
+              <item name="mytomcatV2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyTomcat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyTomcat" type="462c0819:PsiDirectoryNode" />
+              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557588573666" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lxk.MyTomcat.mytomcatV2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\code\IntelljIDE\MyTomcat\WebContent" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TestServer (1)">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.lxk.MyTomcat.test.ReceiveFromService" />
+      <module name="MyTomcat" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceSendToClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lxk.MyTomcat.test.ServiceSendToClient" />
+      <module name="MyTomcat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lxk.MyTomcat.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lxk.MyTomcat.mytomcatV2.TestServer" />
+      <module name="MyTomcat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lxk.MyTomcat.mytomcatV2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lxk.MyTomcat.mytomcatV1.TestServer" />
+      <module name="MyTomcat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lxk.MyTomcat.mytomcatV1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestServer (1)" />
+        <item itemvalue="Application.TestServer" />
+        <item itemvalue="Application.ServiceSendToClient" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8e600e2-ba29-493f-bdf7-6296fadecf94" name="Default Changelist" comment="" />
+      <created>1557562702165</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557562702165</updated>
+      <workItem from="1557562703974" duration="1064000" />
+      <workItem from="1557563936832" duration="14058000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15122000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19119497" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5056361" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/net/InetAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="1637" column="36" lean-forward="true" selection-start-line="1637" selection-start-column="36" selection-end-line="1637" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/net/ServerSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="237" column="38" lean-forward="true" selection-start-line="237" selection-start-column="38" selection-end-line="237" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/demo02.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lxk/MyTomcat/test/ReceiveFromService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/net/Socket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="114" column="4" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lxk/MyTomcat/test/ServiceSendToClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/demo01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lxk/MyTomcat/mytomcatV1/TestServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="75" column="17" lean-forward="true" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lxk/MyTomcat/mytomcatV2/Servlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/conf.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lxk/MyTomcat/mytomcatV2/AAServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lxk/MyTomcat/mytomcatV2/BBServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lxk/MyTomcat/mytomcatV2/TestServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>MyTomcat</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
